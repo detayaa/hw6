@@ -28,10 +28,19 @@ public class main {
         for (int i = 7; i <= 98 ; i += 7) {
         System.out.println(i);
         }
-        System.out.println("задание 3.3.2");
+        System.out.println("задание 3.2");
         for (int i = 1; i <=512; i = i * 2) {
             System.out.println(i);
         }
+        System.out.println("задание 1.3");
+        int salary = 29000;
+        int total = 0;
+        for (int i = 1 ; i <= 12 ; i ++ ) {
+            total += salary;
+            System.out.println("Месяц " + i + ", сумма накоплений равна  " + total + " рублей");
+
+        }
+
 
     }
 }
