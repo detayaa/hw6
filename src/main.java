@@ -40,6 +40,15 @@ public class main {
             System.out.println("Месяц " + i + ", сумма накоплений равна  " + total + " рублей");
 
         }
+        System.out.println("задание 2.3");
+        int salary2 = 29000;
+        int total2 = 0;
+        for (int i = 1 ; i <= 12 ; i ++ ) {
+            total2 += salary2/100;
+            total2 += salary2;
+            System.out.println("Месяц " + i + ", сумма накоплений равна  " + total2 + " рублей");
+
+        }
 
 
     }
