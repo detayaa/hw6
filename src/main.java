@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class main {
     public static void main(String[] args) {
         System.out.println("задание 1");
@@ -17,6 +19,10 @@ public class main {
         System.out.println("задание 4");
         for (int i = 10; i >= -10; i -- ) {
             System.out.println(i);
+        }
+        System.out.println("задание 1.2");
+        for (int i = 1904 ; i <= 2096 ; i += 4) {
+            System.out.println(i + " год является високосным");
         }
 
     }
