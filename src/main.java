@@ -14,6 +14,11 @@ public class main {
                 System.out.println(i);
             }
         }
+        System.out.println("задание 4");
+        for (int i = 10; i >= -10; i -- ) {
+            System.out.println(i);
+        }
+
     }
 }
 
